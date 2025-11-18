@@ -30,4 +30,5 @@ print(next(it_str_1))
 print(next(it_str_1))
 print(next(it_str_1))
 
+
 print("================================================")

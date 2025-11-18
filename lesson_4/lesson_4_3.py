@@ -3,6 +3,8 @@ age = "31"
 
 text = f"Мое имя: {name}. Мой возраст: {age}"
 print(text)
+text = ("Меня зовут " + name + ", мне " + str(age) + " лет.")
+print(text)
 
 text2 = "Мое имя: {0}. Мой возраст: {1}".format(name, age)
 print(text2)

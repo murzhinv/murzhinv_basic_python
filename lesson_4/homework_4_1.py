@@ -13,7 +13,7 @@ print(msg.find("ра"))
 print(msg.find("а",2))
 print("================================================")
 print("3. Поиск подстроки")
-msg1 = "абракадабра"
+msg = "абракадабра"
 print(msg.find("ка"))
 print(msg.rfind("а"))
 print(msg.find("xyz")) # -1 ничего не нашел

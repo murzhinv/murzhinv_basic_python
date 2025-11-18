@@ -41,7 +41,8 @@ courses_students = {}
 for student_name, course_name in students:
     if course_name in courses_students:
         courses_students[course_name].append(student_name)
-    else:courses_students[course_name] = [student_name]
+    else:
+        courses_students[course_name] = [student_name]
 print(courses_students)
 
 print("================================================")
